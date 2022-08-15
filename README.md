@@ -1,4 +1,4 @@
-# Korea-Weather-Data-EDA
+# Korea-Weather-Data-EDA (in progress)
 
 # TODO
     - Plot graphs tools like matplotlib, seaborn...
