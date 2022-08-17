@@ -13,9 +13,19 @@
     - Snow
     - Cloud
     ...
+
+## Issue with font when displaying Korean character.
+- First, you need to install the font Malgun Gothic by installing file `malgun.ttf` to display Korean letter in matplotlib.
+- Run the following command to empty cache of matplotlib
+
+    ```shell
+    rm ~/.cache/matplotlib -rf
+    ``` 
     
-# TODO
-    - Plot graphs tools like matplotlib, seaborn...
-    - Clean the data with pandas
-    - Explore some insights about weather in Korea, especially in summer. 
-    - Upload the dataset on kaggle
+- Restart the kernel of the notebook if you have already been active.
+
+## TODO
+- [x] Plot graphs tools like matplotlib, seaborn...
+- [x] Clean the data with pandas
+- [x] Explore some insights about weather in Korea, especially in summer. 
+- [ ] Upload the dataset on kaggle
